@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84E319121CDE79950041C813 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E319111CDE79950041C813 /* AppDelegate.swift */; };
+		84E319191CDE79950041C813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E319171CDE79950041C813 /* Main.storyboard */; };
+		84E3191B1CDE79950041C813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E3191A1CDE79950041C813 /* Assets.xcassets */; };
+		84E3193F1CDE7D960041C813 /* Buy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E319331CDE7CEB0041C813 /* Buy.framework */; };
+		84E319401CDE7D960041C813 /* Buy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84E319331CDE7CEB0041C813 /* Buy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84E319491CDE8A150041C813 /* YogaNinja.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84E319481CDE8A150041C813 /* YogaNinja.jpg */; };
+		84E3194B1CDE8A2B0041C813 /* women6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84E3194A1CDE8A2B0041C813 /* women6.jpg */; };
+		84EAB8081CDF770C000EEE67 /* yoganinja_frontpage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84EAB8071CDF770C000EEE67 /* yoganinja_frontpage.jpg */; };
+		84EAB80F1CDF7847000EEE67 /* yoganinja_bigIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EAB80E1CDF7847000EEE67 /* yoganinja_bigIcon.png */; };
+		84EAB8121CDFAB88000EEE67 /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EAB8111CDFAB88000EEE67 /* PaymentVC.swift */; };
+		84EAB8141CDFAC6A000EEE67 /* ShopifyCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EAB8131CDFAC6A000EEE67 /* ShopifyCollectionView.swift */; };
+		84EAB8161CDFACFF000EEE67 /* CheckoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EAB8151CDFACFF000EEE67 /* CheckoutVC.swift */; };
+		84EAB8181CDFAD57000EEE67 /* ShoppingCartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EAB8171CDFAD57000EEE67 /* ShoppingCartCell.swift */; };
+		84EAB81A1CDFADE1000EEE67 /* ItemDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EAB8191CDFADE1000EEE67 /* ItemDetailsView.swift */; };
+		84EAB81C1CDFB9EA000EEE67 /* CatalogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EAB81B1CDFB9EA000EEE67 /* CatalogCell.swift */; };
+		84EAB81E1CDFC6D8000EEE67 /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EAB81D1CDFC6D8000EEE67 /* FocusView.swift */; };
+		84EAB8201CDFC704000EEE67 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EAB81F1CDFC704000EEE67 /* Item.swift */; };
+		BF196818C82BCE1E8B0034E8 /* Pods_YogaNinja.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB4DE9E7AE8C5DC9A826251 /* Pods_YogaNinja.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84E3192C1CDE7CEB0041C813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E319221CDE7CEB0041C813 /* Mobile Buy SDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 90F7BA681B0D1DAF0067864D;
+			remoteInfo = Playground;
+		};
+		84E3192E1CDE7CEB0041C813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E319221CDE7CEB0041C813 /* Mobile Buy SDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 90F592EC1B0D5EFE0026B382;
+			remoteInfo = "Mobile Buy SDK Tests";
+		};
+		84E319301CDE7CEB0041C813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E319221CDE7CEB0041C813 /* Mobile Buy SDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE9A64281B503C2F0033E558;
+			remoteInfo = "Buy Static";
+		};
+		84E319321CDE7CEB0041C813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E319221CDE7CEB0041C813 /* Mobile Buy SDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 901931701BC5B9BC00D1134E;
+			remoteInfo = Buy;
+		};
+		84E319341CDE7CEB0041C813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E319221CDE7CEB0041C813 /* Mobile Buy SDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE4C174C1BD00FE7005AAAD3;
+			remoteInfo = "Buy tvOS";
+		};
+		84E3193C1CDE7D610041C813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E319221CDE7CEB0041C813 /* Mobile Buy SDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 901930E11BC5B9BC00D1134E;
+			remoteInfo = Buy;
+		};
+		84E319411CDE7D960041C813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E319221CDE7CEB0041C813 /* Mobile Buy SDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 901930E11BC5B9BC00D1134E;
+			remoteInfo = Buy;
+		};
+		84E319441CDE7DEA0041C813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E319221CDE7CEB0041C813 /* Mobile Buy SDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BE4C16BE1BD00FE7005AAAD3;
+			remoteInfo = "Buy tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84E319431CDE7D960041C813 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84E319401CDE7D960041C813 /* Buy.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2AB4DE9E7AE8C5DC9A826251 /* Pods_YogaNinja.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YogaNinja.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA07D7C954214873B5D98BE /* Pods-YogaNinja.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogaNinja.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YogaNinja/Pods-YogaNinja.debug.xcconfig"; sourceTree = "<group>"; };
+		84E3190E1CDE79950041C813 /* YogaNinja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YogaNinja.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E319111CDE79950041C813 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84E319181CDE79950041C813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84E3191A1CDE79950041C813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84E3191C1CDE79950041C813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E319221CDE7CEB0041C813 /* Mobile Buy SDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Mobile Buy SDK.xcodeproj"; path = "../../../Downloads/mobile-buy-sdk-ios-tvOS-2/Mobile Buy SDK/Mobile Buy SDK.xcodeproj"; sourceTree = "<group>"; };
+		84E319481CDE8A150041C813 /* YogaNinja.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = YogaNinja.jpg; sourceTree = "<group>"; };
+		84E3194A1CDE8A2B0041C813 /* women6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = women6.jpg; sourceTree = "<group>"; };
+		84EAB8071CDF770C000EEE67 /* yoganinja_frontpage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoganinja_frontpage.jpg; sourceTree = "<group>"; };
+		84EAB80E1CDF7847000EEE67 /* yoganinja_bigIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yoganinja_bigIcon.png; sourceTree = "<group>"; };
+		84EAB8111CDFAB88000EEE67 /* PaymentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
+		84EAB8131CDFAC6A000EEE67 /* ShopifyCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopifyCollectionView.swift; sourceTree = "<group>"; };
+		84EAB8151CDFACFF000EEE67 /* CheckoutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutVC.swift; sourceTree = "<group>"; };
+		84EAB8171CDFAD57000EEE67 /* ShoppingCartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCartCell.swift; sourceTree = "<group>"; };
+		84EAB8191CDFADE1000EEE67 /* ItemDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsView.swift; sourceTree = "<group>"; };
+		84EAB81B1CDFB9EA000EEE67 /* CatalogCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogCell.swift; sourceTree = "<group>"; };
+		84EAB81D1CDFC6D8000EEE67 /* FocusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
+		84EAB81F1CDFC704000EEE67 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CCA1842814EF578D881AD96D /* Pods-YogaNinja.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogaNinja.release.xcconfig"; path = "Pods/Target Support Files/Pods-YogaNinja/Pods-YogaNinja.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E3190B1CDE79950041C813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E3193F1CDE7D960041C813 /* Buy.framework in Frameworks */,
+				BF196818C82BCE1E8B0034E8 /* Pods_YogaNinja.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DCA5A3A697A7A3C0BA1B0CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AB4DE9E7AE8C5DC9A826251 /* Pods_YogaNinja.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84E319051CDE79950041C813 = {
+			isa = PBXGroup;
+			children = (
+				84E319221CDE7CEB0041C813 /* Mobile Buy SDK.xcodeproj */,
+				84E319101CDE79950041C813 /* YogaNinja */,
+				84E3190F1CDE79950041C813 /* Products */,
+				CDF251DE86CA9A6E212CD5AD /* Pods */,
+				7DCA5A3A697A7A3C0BA1B0CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84E3190F1CDE79950041C813 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E3190E1CDE79950041C813 /* YogaNinja.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E319101CDE79950041C813 /* YogaNinja */ = {
+			isa = PBXGroup;
+			children = (
+				84E319471CDE890B0041C813 /* images */,
+				84E319111CDE79950041C813 /* AppDelegate.swift */,
+				84EAB8111CDFAB88000EEE67 /* PaymentVC.swift */,
+				84EAB8131CDFAC6A000EEE67 /* ShopifyCollectionView.swift */,
+				84EAB8151CDFACFF000EEE67 /* CheckoutVC.swift */,
+				84EAB8171CDFAD57000EEE67 /* ShoppingCartCell.swift */,
+				84EAB8191CDFADE1000EEE67 /* ItemDetailsView.swift */,
+				84EAB81B1CDFB9EA000EEE67 /* CatalogCell.swift */,
+				84EAB81D1CDFC6D8000EEE67 /* FocusView.swift */,
+				84EAB81F1CDFC704000EEE67 /* Item.swift */,
+				84E319171CDE79950041C813 /* Main.storyboard */,
+				84E3191A1CDE79950041C813 /* Assets.xcassets */,
+				84E3191C1CDE79950041C813 /* Info.plist */,
+			);
+			path = YogaNinja;
+			sourceTree = "<group>";
+		};
+		84E319231CDE7CEB0041C813 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E3192D1CDE7CEB0041C813 /* Playground.app */,
+				84E3192F1CDE7CEB0041C813 /* Mobile Buy SDK Tests.xctest */,
+				84E319311CDE7CEB0041C813 /* Buy.framework */,
+				84E319331CDE7CEB0041C813 /* Buy.framework */,
+				84E319351CDE7CEB0041C813 /* Buy.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E319471CDE890B0041C813 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				84E3194A1CDE8A2B0041C813 /* women6.jpg */,
+				84E319481CDE8A150041C813 /* YogaNinja.jpg */,
+				84EAB8071CDF770C000EEE67 /* yoganinja_frontpage.jpg */,
+				84EAB80E1CDF7847000EEE67 /* yoganinja_bigIcon.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		CDF251DE86CA9A6E212CD5AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BA07D7C954214873B5D98BE /* Pods-YogaNinja.debug.xcconfig */,
+				CCA1842814EF578D881AD96D /* Pods-YogaNinja.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E3190D1CDE79950041C813 /* YogaNinja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E3191F1CDE79950041C813 /* Build configuration list for PBXNativeTarget "YogaNinja" */;
+			buildPhases = (
+				CC10FB524FB4E672E22D7D1C /* Check Pods Manifest.lock */,
+				84E3190A1CDE79950041C813 /* Sources */,
+				84E3190B1CDE79950041C813 /* Frameworks */,
+				84E3190C1CDE79950041C813 /* Resources */,
+				84E319431CDE7D960041C813 /* Embed Frameworks */,
+				BE650C6B26D7583A546C6C26 /* Embed Pods Frameworks */,
+				C7BB316A6F0E8B7AC34F96F4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E319451CDE7DEA0041C813 /* PBXTargetDependency */,
+				84E3193D1CDE7D610041C813 /* PBXTargetDependency */,
+				84E319421CDE7D960041C813 /* PBXTargetDependency */,
+			);
+			name = YogaNinja;
+			productName = YogaNinja;
+			productReference = 84E3190E1CDE79950041C813 /* YogaNinja.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E319061CDE79950041C813 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CodeWithFelix;
+				TargetAttributes = {
+					84E3190D1CDE79950041C813 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 84E319091CDE79950041C813 /* Build configuration list for PBXProject "YogaNinja" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84E319051CDE79950041C813;
+			productRefGroup = 84E3190F1CDE79950041C813 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 84E319231CDE7CEB0041C813 /* Products */;
+					ProjectRef = 84E319221CDE7CEB0041C813 /* Mobile Buy SDK.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				84E3190D1CDE79950041C813 /* YogaNinja */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		84E3192D1CDE7CEB0041C813 /* Playground.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Playground.app;
+			remoteRef = 84E3192C1CDE7CEB0041C813 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84E3192F1CDE7CEB0041C813 /* Mobile Buy SDK Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Mobile Buy SDK Tests.xctest";
+			remoteRef = 84E3192E1CDE7CEB0041C813 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84E319311CDE7CEB0041C813 /* Buy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Buy.framework;
+			remoteRef = 84E319301CDE7CEB0041C813 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84E319331CDE7CEB0041C813 /* Buy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Buy.framework;
+			remoteRef = 84E319321CDE7CEB0041C813 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84E319351CDE7CEB0041C813 /* Buy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Buy.framework;
+			remoteRef = 84E319341CDE7CEB0041C813 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E3190C1CDE79950041C813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E3191B1CDE79950041C813 /* Assets.xcassets in Resources */,
+				84E3194B1CDE8A2B0041C813 /* women6.jpg in Resources */,
+				84EAB80F1CDF7847000EEE67 /* yoganinja_bigIcon.png in Resources */,
+				84EAB8081CDF770C000EEE67 /* yoganinja_frontpage.jpg in Resources */,
+				84E319191CDE79950041C813 /* Main.storyboard in Resources */,
+				84E319491CDE8A150041C813 /* YogaNinja.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BE650C6B26D7583A546C6C26 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YogaNinja/Pods-YogaNinja-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7BB316A6F0E8B7AC34F96F4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YogaNinja/Pods-YogaNinja-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC10FB524FB4E672E22D7D1C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E3190A1CDE79950041C813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EAB81A1CDFADE1000EEE67 /* ItemDetailsView.swift in Sources */,
+				84E319121CDE79950041C813 /* AppDelegate.swift in Sources */,
+				84EAB81C1CDFB9EA000EEE67 /* CatalogCell.swift in Sources */,
+				84EAB8121CDFAB88000EEE67 /* PaymentVC.swift in Sources */,
+				84EAB8161CDFACFF000EEE67 /* CheckoutVC.swift in Sources */,
+				84EAB81E1CDFC6D8000EEE67 /* FocusView.swift in Sources */,
+				84EAB8141CDFAC6A000EEE67 /* ShopifyCollectionView.swift in Sources */,
+				84EAB8201CDFC704000EEE67 /* Item.swift in Sources */,
+				84EAB8181CDFAD57000EEE67 /* ShoppingCartCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84E3193D1CDE7D610041C813 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Buy;
+			targetProxy = 84E3193C1CDE7D610041C813 /* PBXContainerItemProxy */;
+		};
+		84E319421CDE7D960041C813 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Buy;
+			targetProxy = 84E319411CDE7D960041C813 /* PBXContainerItemProxy */;
+		};
+		84E319451CDE7DEA0041C813 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Buy tvOS";
+			targetProxy = 84E319441CDE7DEA0041C813 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84E319171CDE79950041C813 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E319181CDE79950041C813 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84E3191D1CDE79950041C813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		84E3191E1CDE79950041C813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E319201CDE79950041C813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BA07D7C954214873B5D98BE /* Pods-YogaNinja.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = YogaNinja/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithfelix.YogaNinja;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84E319211CDE79950041C813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCA1842814EF578D881AD96D /* Pods-YogaNinja.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = YogaNinja/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithfelix.YogaNinja;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E319091CDE79950041C813 /* Build configuration list for PBXProject "YogaNinja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E3191D1CDE79950041C813 /* Debug */,
+				84E3191E1CDE79950041C813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E3191F1CDE79950041C813 /* Build configuration list for PBXNativeTarget "YogaNinja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E319201CDE79950041C813 /* Debug */,
+				84E319211CDE79950041C813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84E319061CDE79950041C813 /* Project object */;
+}
