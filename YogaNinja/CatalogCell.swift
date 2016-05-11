@@ -13,7 +13,6 @@ class CatalogCell: UICollectionViewCell {
     @IBOutlet weak var itemLbl: UILabel!
     
     var itemDesc = ""
-    var itemBrand = ""
     var itemPrice = ""
     var itemProductId = ""
     var imagePath = ""

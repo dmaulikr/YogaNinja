@@ -137,8 +137,6 @@ class ShopifyCollectionView: UIViewController, UICollectionViewDelegate, UIColle
                 }
                 itemDetailsVC.clickedSideImage1 = theCell.sideImage1
                 itemDetailsVC.clickedSideImage2 = theCell.sideImage2
-
-                itemDetailsVC.clickedBrand = "Yoga Ninja"
                 itemDetailsVC.clickedPrice = theCell.itemPrice
                 itemDetailsVC.clickedItemCategory = theCell.itemDesc
                 itemDetailsVC.clickedCell = theCell

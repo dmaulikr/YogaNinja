@@ -18,7 +18,6 @@ class ItemDetailsView: UIViewController {
     @IBOutlet var sideImage1: UIImageView!
     @IBOutlet var sideImage2: UIImageView!
     @IBOutlet var itemTitle: UILabel!
-    @IBOutlet var brand: UILabel!
     @IBOutlet var productCategory: UILabel!
     @IBOutlet var price: UILabel!
     @IBOutlet weak var smLabel: UIButton!
@@ -35,7 +34,6 @@ class ItemDetailsView: UIViewController {
     var clickedSideImage1 = UIImage()
     var clickedSideImage2 = UIImage()
     var clickedItemTitle = ""
-    var clickedBrand = ""
     var clickedItemCategory = ""
     var clickedPrice = ""
     var clickedProductId = ""
@@ -96,7 +94,7 @@ class ItemDetailsView: UIViewController {
                     let imagePath = clickedCell.imagePath
                     let sideImagePath1 = clickedCell.sideImagePath1
                     let sideImagePath2 = clickedCell.sideImagePath2
-                    let cellInfo: [String: AnyObject] = ["image": imagePath, "sideImage1": sideImagePath1, "sideImage2": sideImagePath2, "title": clickedItemTitle, "price": clickedPrice, "brand": clickedBrand, "productId": clickedProductId]
+                    let cellInfo: [String: AnyObject] = ["image": imagePath, "sideImage1": sideImagePath1, "sideImage2": sideImagePath2, "title": clickedItemTitle, "price": clickedPrice, "productId": clickedProductId]
                     let qty = Int(cartQTY)!
                     let size = selectedSize
                     let itemAttributes: [String: AnyObject] = ["cell": cellInfo, "size": size, "qty": qty]
@@ -151,7 +149,6 @@ class ItemDetailsView: UIViewController {
         sideImage1.image = clickedSideImage1
         sideImage2.image = clickedSideImage2
         itemTitle.text = clickedItemTitle
-        brand.text = clickedBrand
         productCategory.text = clickedItemCategory
         price.text = clickedPrice
     }

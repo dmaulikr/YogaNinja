@@ -179,7 +179,6 @@ class CheckoutVC: UIViewController, UICollectionViewDelegate, UICollectionViewDa
                 itemDetailsVC.clickedImage = cartCell.cartCellImage
                 itemDetailsVC.clickedSideImage1 = cartCell.cartCellSideImage1
                 itemDetailsVC.clickedSideImage2 = cartCell.cartCellSideImage2
-                itemDetailsVC.clickedBrand = "Yoga Ninja"
                 itemDetailsVC.clickedPrice = cartCell.cartCellPrice
                 itemDetailsVC.clickedItemCategory = cartCell.cartCellTitle
                 itemDetailsVC.clickedCell.imagePath = cartCell.cellImagePath

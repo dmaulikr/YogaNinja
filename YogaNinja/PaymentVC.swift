@@ -124,7 +124,7 @@ class PaymentVC: UIViewController {
         
         if let phoneNumber = self.phoneTextField.text {
             let charCount = phoneNumber.characters.count
-            if charCount < 10 {
+            if charCount != 10 {
                 //Need an alert to do this!
                 enterPhoneLabel.text = "Please enter a valid phone number"
             } else {
