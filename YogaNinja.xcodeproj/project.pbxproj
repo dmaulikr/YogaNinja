@@ -255,6 +255,7 @@
 				TargetAttributes = {
 					84E3190D1CDE79950041C813 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SSASSJL7V9;
 					};
 				};
 			};
@@ -471,6 +472,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "0babb9d2-458c-49d2-a089-c9e74682cb9c";
 				SDKROOT = appletvos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 3;
@@ -496,6 +498,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Felix Anane (SSASSJL7V9)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Felix Anane (SSASSJL7V9)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -509,6 +513,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "0babb9d2-458c-49d2-a089-c9e74682cb9c";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
@@ -522,10 +527,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution";
 				INFOPLIST_FILE = YogaNinja/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codewithfelix.YogaNinja;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0babb9d2-458c-49d2-a089-c9e74682cb9c";
 			};
 			name = Debug;
 		};
@@ -535,10 +543,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Felix Anane (SSASSJL7V9)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution: Felix Anane (SSASSJL7V9)";
 				INFOPLIST_FILE = YogaNinja/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codewithfelix.YogaNinja;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0babb9d2-458c-49d2-a089-c9e74682cb9c";
 			};
 			name = Release;
 		};

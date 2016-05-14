@@ -690,12 +690,6 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.78385701939999997" green="0.85677969430000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powered by Tably" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oGa-j1-S65">
-                                <rect key="frame" x="850" y="1011" width="173" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bib-TQ-zci">
                                 <rect key="frame" x="310" y="907" width="408" height="96"/>
                                 <constraints>
@@ -865,10 +859,8 @@
                             <constraint firstItem="2tB-s6-qmn" firstAttribute="centerX" secondItem="Inc-hM-wQ0" secondAttribute="centerX" id="5v8-QK-Zse"/>
                             <constraint firstItem="2Ns-s4-VIM" firstAttribute="top" secondItem="UQv-ec-xAF" secondAttribute="bottom" constant="60" id="Apx-B8-fDY"/>
                             <constraint firstItem="KU4-cx-5oA" firstAttribute="leading" secondItem="i1d-v5-bSu" secondAttribute="trailing" constant="38" id="DyP-0E-GKp"/>
-                            <constraint firstItem="oGa-j1-S65" firstAttribute="top" secondItem="i1d-v5-bSu" secondAttribute="bottom" constant="8" id="H10-Jy-frT"/>
                             <constraint firstItem="G3h-TG-f4a" firstAttribute="top" secondItem="X0a-aT-OlB" secondAttribute="bottom" constant="140" id="Jhl-03-tRg"/>
                             <constraint firstItem="UQv-ec-xAF" firstAttribute="leading" secondItem="Inc-hM-wQ0" secondAttribute="leadingMargin" id="N77-RZ-mIZ"/>
-                            <constraint firstItem="oGa-j1-S65" firstAttribute="leading" secondItem="Inc-hM-wQ0" secondAttribute="leadingMargin" constant="830" id="NLZ-mk-oNb"/>
                             <constraint firstItem="IbW-Q0-4M2" firstAttribute="leading" secondItem="Dvy-tB-zoa" secondAttribute="trailing" constant="8" id="NeY-Hf-JeA"/>
                             <constraint firstItem="i1d-v5-bSu" firstAttribute="top" secondItem="UQv-ec-xAF" secondAttribute="bottom" constant="60" id="QZR-T9-9Bh"/>
                             <constraint firstItem="KU4-cx-5oA" firstAttribute="top" secondItem="UQv-ec-xAF" secondAttribute="bottom" constant="8" id="THA-m3-12B"/>
@@ -1025,6 +1017,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="a4h-Vg-aCF"/>
         <segue reference="lH3-DH-nP6"/>
-        <segue reference="V7v-f3-TAp"/>
+        <segue reference="Xbp-Rs-cWK"/>
     </inferredMetricsTieBreakers>
 </document>
